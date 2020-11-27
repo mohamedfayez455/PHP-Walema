@@ -1,0 +1,1 @@
+<img src="{{ $photo_path }}" width="70px" height="70px" style="border-radius: 20px">

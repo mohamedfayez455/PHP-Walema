@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "pro": "pm2 start server.js -i max --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "nodemon": "^1.18.10",
+    "pm2": "^3.2.9",
+    "socket.io": "^2.2.0"
+  }
+}

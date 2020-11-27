@@ -1,0 +1,1 @@
+<a href="{{ aurl('supplier-types/'. $id . '/edit') }}" class="btn btn-info"><i class="fa fa-edit"></i> </a>
